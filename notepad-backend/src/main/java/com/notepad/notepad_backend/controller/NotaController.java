@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RestController
+@RequestMapping("/api/pastas") //prefixo para todos os endpoints de notas
+
 public class NotaController {
     
     @Autowired
